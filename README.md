@@ -30,6 +30,7 @@ Lớp: 58KTPM
 
 <img width="833" height="68" alt="{7CF10815-3958-463B-9BBD-D6BCC44D6932}" src="https://github.com/user-attachments/assets/9b54aabf-dc89-4545-a1e3-ca5e4d35852a" />
 
+4. Cài đặt WordPress
 
 <img width="960" height="540" alt="{9E194C65-AD03-4407-98E2-7C0AC3D6F160}" src="https://github.com/user-attachments/assets/a765eee8-7d4b-4de0-bbc5-82923e9e00ff" />
 <img width="960" height="540" alt="{813BD11E-7199-4BA9-9329-2A0C65BD2F47}" src="https://github.com/user-attachments/assets/e5df41de-1c33-4241-a9fd-7201a19fd21b" />
