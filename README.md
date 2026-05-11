@@ -26,6 +26,11 @@ Lớp: 58KTPM
 
 <img width="960" height="540" alt="{10D44FE0-D9C5-4F1E-BE29-E9781483C2BF}" src="https://github.com/user-attachments/assets/813b0014-5340-4ed4-9dee-a1370cc6036d" />
 
+3. Chạy Docker Compose
+
+<img width="833" height="68" alt="{7CF10815-3958-463B-9BBD-D6BCC44D6932}" src="https://github.com/user-attachments/assets/9b54aabf-dc89-4545-a1e3-ca5e4d35852a" />
+
+
 <img width="960" height="540" alt="{9E194C65-AD03-4407-98E2-7C0AC3D6F160}" src="https://github.com/user-attachments/assets/a765eee8-7d4b-4de0-bbc5-82923e9e00ff" />
 <img width="960" height="540" alt="{813BD11E-7199-4BA9-9329-2A0C65BD2F47}" src="https://github.com/user-attachments/assets/e5df41de-1c33-4241-a9fd-7201a19fd21b" />
 <img width="960" height="540" alt="{0EA1F1A2-F586-4072-9C54-416A4B0C31D4}" src="https://github.com/user-attachments/assets/ac364696-7593-4701-9941-c2f2a75d0e39" />
