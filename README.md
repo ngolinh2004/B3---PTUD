@@ -16,33 +16,33 @@ Lớp: 58KTPM
 
 # BÀI LÀM
 
-1. Tạo thư mục project
+## 1. Tạo thư mục project
    
 <img width="392" height="24" alt="{817424EA-5D0D-4DF8-804C-00F67ED65FF8}" src="https://github.com/user-attachments/assets/aeb326f9-8e38-43f9-9ee2-3c28955e17d4" />
 
-2. Tạo file docker-compose.yml
+## 2. Tạo file docker-compose.yml
 
 <img width="414" height="25" alt="{6171F1FD-9431-4E41-AAD9-99F87EE7AF79}" src="https://github.com/user-attachments/assets/40388e99-79e7-4209-b239-36d4abf83d07" />
 
 <img width="960" height="540" alt="{10D44FE0-D9C5-4F1E-BE29-E9781483C2BF}" src="https://github.com/user-attachments/assets/813b0014-5340-4ed4-9dee-a1370cc6036d" />
 
-3. Chạy Docker Compose
+## 3. Chạy Docker Compose
 
 <img width="833" height="68" alt="{7CF10815-3958-463B-9BBD-D6BCC44D6932}" src="https://github.com/user-attachments/assets/9b54aabf-dc89-4545-a1e3-ca5e4d35852a" />
 
-4. Cài đặt WordPress
+## 4. Cài đặt WordPress
 
 <img width="960" height="540" alt="{9E194C65-AD03-4407-98E2-7C0AC3D6F160}" src="https://github.com/user-attachments/assets/a765eee8-7d4b-4de0-bbc5-82923e9e00ff" />
 <img width="960" height="540" alt="{813BD11E-7199-4BA9-9329-2A0C65BD2F47}" src="https://github.com/user-attachments/assets/e5df41de-1c33-4241-a9fd-7201a19fd21b" />
 <img width="960" height="540" alt="{0EA1F1A2-F586-4072-9C54-416A4B0C31D4}" src="https://github.com/user-attachments/assets/ac364696-7593-4701-9941-c2f2a75d0e39" />
 
-5. Sử dụng cloudflare tunnel để public web này lên 1 sub-domain
+## 5. Sử dụng cloudflare tunnel để public web này lên 1 sub-domain
    
 <img width="960" height="540" alt="{F7C20238-7704-4AA2-8943-EDD5B033A6AB}" src="https://github.com/user-attachments/assets/dfa39f02-7361-4b02-a387-069f72520521" />
 
 <img width="569" height="398" alt="{D7CFC0DD-DFEB-43E3-9612-3366B5BAA894}" src="https://github.com/user-attachments/assets/46eb1a09-91c9-46df-9f03-ccc65e21cdf3" />
 
-6. Bây giờ làm nội dụng bài tập
+## 6. Bây giờ làm nội dụng bài tập
 
  - Đăng nhập admin -> Mở https://localhost:8080/wn-admin
 
@@ -56,4 +56,13 @@ Lớp: 58KTPM
 
 <img width="960" height="540" alt="{67E0430F-C308-4184-96BD-74AD26829DDA}" src="https://github.com/user-attachments/assets/fe8084e4-662a-447f-810c-667c51960360" />
 
-7. Nhận xét việc sử dụng mã nguồn mở wordpress để tạo website (tốn công sức thế nào, dễ/khó dùng ra sao, tốn kém tài nguyên(ssh/ram) của máy chủ ra sao,....)
+## 7. Nhận xét việc sử dụng mã nguồn mở wordpress để tạo website (tốn công sức thế nào, dễ/khó dùng ra sao, tốn kém tài nguyên(ssh/ram) của máy chủ ra sao,....)
+- WordPress là một mã nguồn mở phổ biến giúp tạo website nhanh chóng và dễ sử dụng. WordPress có giao diện trực quan, hỗ trợ tạo bài viết, chèn hình ảnh, video và cài plugin mà không cần lập trình quá nhiều.
+
+- Trong quá trình triển khai bằng Docker trên Ubuntu, việc cấu hình ban đầu tương đối khó vì cần hiểu về Docker Compose, database, domain và Cloudflare Tunnel. Tuy nhiên sau khi cài đặt thành công thì việc quản lý website khá thuận tiện.
+
+- Về tài nguyên hệ thống, WordPress sử dụng tương đối nhiều RAM khi chạy cùng MariaDB và phpMyAdmin, thường khoảng 1GB–2GB RAM cho toàn bộ hệ thống. Nếu cài nhiều plugin hoặc có nhiều người truy cập thì CPU và dung lượng lưu trữ cũng tăng đáng kể.
+
+- Ưu điểm lớn của WordPress là dễ dùng, tạo website nhanh, hỗ trợ nhiều plugin và có cộng đồng lớn. Nhược điểm là dễ chậm nếu cài quá nhiều plugin và cần cập nhật thường xuyên để đảm bảo bảo mật.
+
+- Nhìn chung, WordPress là một giải pháp phù hợp để xây dựng website nhanh chóng, đặc biệt cho người mới học phát triển web và triển khai ứng dụng mã nguồn mở.
